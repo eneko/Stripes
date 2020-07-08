@@ -1,3 +1,3 @@
-# Bars
+# Stripes
 
-A description of this package.
+Beautiful background pattern views for SwiftUI. 
