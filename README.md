@@ -40,9 +40,9 @@ struct ContentView: View {
 
 1. Enter the package URL `https://github.com/eneko/Stripes`
 
-    ![Stripes Install](Documentation/stripes-install1.png)
+    ![Stripes Install](Documentation/stripes-install-1.png)
 
 1. Ensure the library is added to the list of Frameworks & Libraries 
 
-    ![Stripes Install](Documentation/stripes-install2.png)
+    ![Stripes Install](Documentation/stripes-install-2.png)
 
