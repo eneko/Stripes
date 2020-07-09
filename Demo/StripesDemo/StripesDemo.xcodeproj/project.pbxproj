@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95725D0624B7658A00516260 /* StripesDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95725CF324B7658800516260 /* StripesDemoApp.swift */; };
+		95725D0724B7658A00516260 /* StripesDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95725CF324B7658800516260 /* StripesDemoApp.swift */; };
+		95725D0824B7658A00516260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95725CF424B7658800516260 /* ContentView.swift */; };
+		95725D0924B7658A00516260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95725CF424B7658800516260 /* ContentView.swift */; };
+		95725D0A24B7658A00516260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95725CF524B7658A00516260 /* Assets.xcassets */; };
+		95725D0B24B7658A00516260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95725CF524B7658A00516260 /* Assets.xcassets */; };
+		95725D1924B7697900516260 /* Stripes in Frameworks */ = {isa = PBXBuildFile; productRef = 95725D1824B7697900516260 /* Stripes */; };
+		95725D1B24B7697F00516260 /* Stripes in Frameworks */ = {isa = PBXBuildFile; productRef = 95725D1A24B7697F00516260 /* Stripes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95725CF324B7658800516260 /* StripesDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripesDemoApp.swift; sourceTree = "<group>"; };
+		95725CF424B7658800516260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95725CF524B7658A00516260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95725CFA24B7658A00516260 /* StripesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95725CFD24B7658A00516260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95725D0224B7658A00516260 /* StripesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95725D0424B7658A00516260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95725D0524B7658A00516260 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95725CF724B7658A00516260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D1924B7697900516260 /* Stripes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95725CFF24B7658A00516260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D1B24B7697F00516260 /* Stripes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95725CED24B7658800516260 = {
+			isa = PBXGroup;
+			children = (
+				95725CF224B7658800516260 /* Shared */,
+				95725CFC24B7658A00516260 /* iOS */,
+				95725D0324B7658A00516260 /* macOS */,
+				95725CFB24B7658A00516260 /* Products */,
+				95725D1724B7697900516260 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95725CF224B7658800516260 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				95725CF324B7658800516260 /* StripesDemoApp.swift */,
+				95725CF424B7658800516260 /* ContentView.swift */,
+				95725CF524B7658A00516260 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		95725CFB24B7658A00516260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95725CFA24B7658A00516260 /* StripesDemo.app */,
+				95725D0224B7658A00516260 /* StripesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95725CFC24B7658A00516260 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				95725CFD24B7658A00516260 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		95725D0324B7658A00516260 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				95725D0424B7658A00516260 /* Info.plist */,
+				95725D0524B7658A00516260 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		95725D1724B7697900516260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95725CF924B7658A00516260 /* StripesDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95725D0E24B7658A00516260 /* Build configuration list for PBXNativeTarget "StripesDemo (iOS)" */;
+			buildPhases = (
+				95725CF624B7658A00516260 /* Sources */,
+				95725CF724B7658A00516260 /* Frameworks */,
+				95725CF824B7658A00516260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StripesDemo (iOS)";
+			packageProductDependencies = (
+				95725D1824B7697900516260 /* Stripes */,
+			);
+			productName = "StripesDemo (iOS)";
+			productReference = 95725CFA24B7658A00516260 /* StripesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95725D0124B7658A00516260 /* StripesDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95725D1124B7658A00516260 /* Build configuration list for PBXNativeTarget "StripesDemo (macOS)" */;
+			buildPhases = (
+				95725CFE24B7658A00516260 /* Sources */,
+				95725CFF24B7658A00516260 /* Frameworks */,
+				95725D0024B7658A00516260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StripesDemo (macOS)";
+			packageProductDependencies = (
+				95725D1A24B7697F00516260 /* Stripes */,
+			);
+			productName = "StripesDemo (macOS)";
+			productReference = 95725D0224B7658A00516260 /* StripesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95725CEE24B7658800516260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					95725CF924B7658A00516260 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					95725D0124B7658A00516260 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 95725CF124B7658800516260 /* Build configuration list for PBXProject "StripesDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95725CED24B7658800516260;
+			packageReferences = (
+				95725D1424B7692F00516260 /* XCRemoteSwiftPackageReference "Stripes" */,
+			);
+			productRefGroup = 95725CFB24B7658A00516260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95725CF924B7658A00516260 /* StripesDemo (iOS) */,
+				95725D0124B7658A00516260 /* StripesDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95725CF824B7658A00516260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D0A24B7658A00516260 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95725D0024B7658A00516260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D0B24B7658A00516260 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95725CF624B7658A00516260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D0824B7658A00516260 /* ContentView.swift in Sources */,
+				95725D0624B7658A00516260 /* StripesDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95725CFE24B7658A00516260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95725D0924B7658A00516260 /* ContentView.swift in Sources */,
+				95725D0724B7658A00516260 /* StripesDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95725D0C24B7658A00516260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95725D0D24B7658A00516260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		95725D0F24B7658A00516260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3USQJTX3FJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enekoalonso.apps.StripesDemo;
+				PRODUCT_NAME = StripesDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95725D1024B7658A00516260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3USQJTX3FJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enekoalonso.apps.StripesDemo;
+				PRODUCT_NAME = StripesDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95725D1224B7658A00516260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3USQJTX3FJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enekoalonso.apps.StripesDemo;
+				PRODUCT_NAME = StripesDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95725D1324B7658A00516260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3USQJTX3FJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enekoalonso.apps.StripesDemo;
+				PRODUCT_NAME = StripesDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95725CF124B7658800516260 /* Build configuration list for PBXProject "StripesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95725D0C24B7658A00516260 /* Debug */,
+				95725D0D24B7658A00516260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95725D0E24B7658A00516260 /* Build configuration list for PBXNativeTarget "StripesDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95725D0F24B7658A00516260 /* Debug */,
+				95725D1024B7658A00516260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95725D1124B7658A00516260 /* Build configuration list for PBXNativeTarget "StripesDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95725D1224B7658A00516260 /* Debug */,
+				95725D1324B7658A00516260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95725D1424B7692F00516260 /* XCRemoteSwiftPackageReference "Stripes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eneko/Stripes";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95725D1824B7697900516260 /* Stripes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95725D1424B7692F00516260 /* XCRemoteSwiftPackageReference "Stripes" */;
+			productName = Stripes;
+		};
+		95725D1A24B7697F00516260 /* Stripes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95725D1424B7692F00516260 /* XCRemoteSwiftPackageReference "Stripes" */;
+			productName = Stripes;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 95725CEE24B7658800516260 /* Project object */;
+}

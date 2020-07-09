@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Stripes",
+        "repositoryURL": "https://github.com/eneko/Stripes",
+        "state": {
+          "branch": null,
+          "revision": "b479c70f1011e4ea945956b2bc07ab1f82c075e6",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
