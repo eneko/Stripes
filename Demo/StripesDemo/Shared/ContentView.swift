@@ -11,9 +11,13 @@ import Stripes
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Stripes(config: StripesConfig(background: Color.green.opacity(0.6),
-                                          foreground: Color.white.opacity(0.3), degrees: 0,
-                                          barWidth: 50, barSpacing: 50))
+            Stripes(config: StripesConfig(background: Color.red.opacity(0.2),
+                                          foreground: Color.blue.opacity(0.6),
+                                          degrees: 45, barWidth: 50, barSpacing: 20))
+            Stripes(config: StripesConfig(background: Color.red.opacity(0.2),
+                                          foreground: Color.white.opacity(0.15),
+                                          degrees: -45, barWidth: 50, barSpacing: 20))
+            
             Text("Hello, world!")
                 .font(.system(size: 50))
                 .foregroundColor(.white)

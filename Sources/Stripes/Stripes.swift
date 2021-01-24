@@ -51,7 +51,6 @@ public struct Stripes: View {
             .background(config.background)
         }
         .clipped()
-        .drawingGroup()
     }
 }
 
