@@ -1,9 +1,9 @@
 //
 //  Stripes.swift
-//  
+//
 //
 //  Created by Eneko Alonso on 7/7/20.
-//
+//  Modified by Eric Di Gioia on 7/6/22
 
 import SwiftUI
 
@@ -38,11 +38,13 @@ public struct Stripes: View {
         GeometryReader { geometry in
             let longSide = max(geometry.size.width, geometry.size.height)
             let itemWidth = config.barWidth + config.barSpacing
-            let items = Int(2 * longSide / itemWidth)
+            let items = Int(2 * longSide / (itemWidth == 0 ? 0.00000001 : itemWidth)) // added conditional here to fix code crashing when itemWidth is 0 (divide by zero error)
             HStack(spacing: config.barSpacing) {
-                ForEach(0..<items) { index in
-                    config.foreground
-                        .frame(width: config.barWidth, height: 2 * longSide)
+                if items > 0 { // added item count check to stop ForEach crash
+                    ForEach(0..<items, id: \.self) { index in // added \.self identifier for items to remove warnings
+                        config.foreground
+                            .frame(width: config.barWidth, height: 2 * longSide)
+                    }
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
