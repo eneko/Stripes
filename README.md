@@ -135,7 +135,7 @@ public struct Stripes: View {
             let itemWidth = config.barWidth + config.barSpacing
             let items = Int(2 * longSide / itemWidth)
             HStack(spacing: config.barSpacing) {
-                ForEach(0..<items) { index in
+                ForEach(0..<items, id: \.self) { index in
                     config.foreground
                         .frame(width: config.barWidth, height: 2 * longSide)
                 }
